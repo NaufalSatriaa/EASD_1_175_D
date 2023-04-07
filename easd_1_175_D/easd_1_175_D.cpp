@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int nflsat[85];
+int nflsat[95];
 int cmp_count = 0;
 int mov_count = 0;
 int n;
@@ -13,10 +13,13 @@ void Input() {
 		cout << "masukkan panjang element array : ";
 		cin >> n;
 
-		if (n <= 85)
+		if (n <= 95)
 			break;
 		else
-			cout << "\nmaksimum panjang array adalah 85" << endl;
+			cout << "\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+			cout << "\nMAKSIMUM PANJANG ARRAY ADALAH 95";
+			cout << "\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << endl;
+			cout << endl;
 	}
 
 	cout << "========================" << endl;
