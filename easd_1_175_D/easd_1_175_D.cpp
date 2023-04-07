@@ -37,5 +37,6 @@ void swap(int x, int y) {
 }
 
 void Algorithm(int low, int high) {
+	int pivot, i, NS;
 	
 }
