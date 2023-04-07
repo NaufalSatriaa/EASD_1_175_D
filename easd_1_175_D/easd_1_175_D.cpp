@@ -1,5 +1,13 @@
+// 1. Algoritma mempermudah dalam memecahkan segala permasalahan yang berkaitan dengan suatu program dan tidak dapat diselesaikan dengan mudah.
+// 2. Statis dan dinamis.
+// 3. Ada output, efektifitas dan efisiensi, jumlah langkahnya berhingga, (semi algoritma) berakhir dan terstruktur.
+// 4. Algoritma Quicksort. Kelebihan dari algoritma ini adalah kinerjanya yang sangat cepat dibanding algoritma pengurutan data lainnya, bahkan untuk data yang berukuran besar. 
+//Quicksort memanfaatkan metode divide and conquer yang memungkinkan untuk mengurangi kompleksitas waktu secara drastis. 
+//Oleh karena itu, quicksort lebih efisien dan mudah diimplementasikan untuk data berukuran besar.
+// 5. Quadratic : Bubblesort, Selectionsort, Insertionsort, dan Shellsort.
+//Loglinear : Quicksort dan Mergesort
 
-
+// 6. Membuat program :
 #include <iostream>
 using namespace std;
 
@@ -23,7 +31,7 @@ void Input() {
 	}
 
 	cout << "========================" << endl;
-	cout << "\nmasukkan element array" << endl;
+	cout << "\nMasukkan element array" << endl;
 	cout << "========================" << endl;
 
 	for (int i = 0; i < n; i++) {
@@ -81,14 +89,14 @@ void Algorithm(int low, int high) {
 
 void Display() {
 	cout << "\n====================" << endl;
-	cout << "\narray yang terususun" << endl;
+	cout << "\nArray yang terususun" << endl;
 	cout << "\n====================" << endl;
 
 	for (int i = 0; i < n; i++) {
 		cout << nflsat[i] << " " << endl;
 	}
-	cout << "\n\njumlah data yang dibandingkan : " << cmp_count << endl;
-	cout << "jumlah data yang berpindah : " << mov_count << endl;
+	cout << "\n\nJumlah data yang dibandingkan : " << cmp_count << endl;
+	cout << "Jumlah data yang berpindah : " << mov_count << endl;
 }
 
 int main() {
