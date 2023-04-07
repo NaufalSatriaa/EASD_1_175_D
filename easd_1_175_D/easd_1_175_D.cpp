@@ -43,5 +43,9 @@ void Algorithm(int low, int high) {
 
 
 	pivot = nflsat[low]; 
+	i = low + 1;
+	NS = high; 
+
+
 	
 }
