@@ -59,6 +59,12 @@ void Algorithm(int low, int high) {
 			cmp_count++;
 		}
 	}
+	cmp_count++;
+	if (i < j) {
+
+		swap(i, NS);
+		mov_count++;
+	}
 	
 	
 }
