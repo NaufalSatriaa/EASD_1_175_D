@@ -41,4 +41,7 @@ void Algorithm(int low, int high) {
 	if (low > high)
 		return;
 
+
+	pivot = nflsat[low]; 
+	
 }
