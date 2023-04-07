@@ -55,6 +55,10 @@ void Algorithm(int low, int high) {
 		cmp_count++;
 
 		while ((nflsat[j] > pivot) && (j >= low)) {
-		
+			NS--;
+			cmp_count++;
+		}
+	}
+	
 	
 }
