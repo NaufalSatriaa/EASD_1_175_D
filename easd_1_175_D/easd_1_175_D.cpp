@@ -75,3 +75,7 @@ void Algorithm(int low, int high) {
 	Algorithm(NS + 1, high);
 	
 }
+
+void display() {
+	
+}
