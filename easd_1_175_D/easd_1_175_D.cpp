@@ -10,13 +10,13 @@ int n;
 
 void input() {
 	while (true) {
-		cout << "masukkan panjang element array" << endl;
+		cout << "masukkan panjang element array : ";
 		cin >> n;
 
-		if (n <= 20)
+		if (n <= 85)
 			break;
 		else
-			cout << "\nmaksimum panjang array adalah 20" << endl;
+			cout << "\nmaksimum panjang array adalah 85" << endl;
 	}
 
 	cout << "---------------------" << endl;
@@ -24,7 +24,12 @@ void input() {
 	cout << "---------------------" << endl;
 
 	for (int i = 0; i < n; i++) {
-		cout << "<" << (i + 1) << ">";
+		cout << (i + 1) << "). ";
 		cin >> nflsat[i];
 	}
+}
+int main() {
+	input();
+
+	return 0;
 }
