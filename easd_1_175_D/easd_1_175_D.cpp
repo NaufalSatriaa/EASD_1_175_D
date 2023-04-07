@@ -84,5 +84,6 @@ void display() {
 	for (int i = 0; i < n; i++) {
 		cout << nflsat[i] << " ";
 	}
-	
+	cout << "\n\njumlah data yang dibandingkan : " << cmp_count << endl;
+	cout << "jumlah data yang berpindah : " << mov_count << endl;
 }
