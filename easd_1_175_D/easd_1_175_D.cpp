@@ -28,8 +28,10 @@ void input() {
 		cin >> nflsat[i];
 	}
 }
-int main() {
-	input();
 
-	return 0;
+void swap(int x, int y) {
+	int temp;
+	temp = nflsat[x];
+	nflsat[x] = nflsat[y];
+	nflsat[y] = temp;
 }
