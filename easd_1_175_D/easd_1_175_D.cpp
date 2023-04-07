@@ -77,5 +77,12 @@ void Algorithm(int low, int high) {
 }
 
 void display() {
+	cout << "\n====================" << endl;
+	cout << "\narray yang terususun" << endl;
+	cout << "\n====================" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << nflsat[i] << " ";
+	}
 	
 }
