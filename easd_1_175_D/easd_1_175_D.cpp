@@ -35,3 +35,7 @@ void swap(int x, int y) {
 	nflsat[x] = nflsat[y];
 	nflsat[y] = temp;
 }
+
+void Algorithm(int low, int high) {
+	
+}
