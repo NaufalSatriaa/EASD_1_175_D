@@ -19,9 +19,9 @@ void Input() {
 			cout << "\nmaksimum panjang array adalah 85" << endl;
 	}
 
-	cout << "---------------------" << endl;
-	cout << "\nenter array element" << endl;
-	cout << "---------------------" << endl;
+	cout << "========================" << endl;
+	cout << "\nmasukkan element array" << endl;
+	cout << "========================" << endl;
 
 	for (int i = 0; i < n; i++) {
 		cout << (i + 1) << "). ";
@@ -82,7 +82,7 @@ void Display() {
 	cout << "\n====================" << endl;
 
 	for (int i = 0; i < n; i++) {
-		cout << nflsat[i] << " ";
+		cout << nflsat[i] << " " << endl;
 	}
 	cout << "\n\njumlah data yang dibandingkan : " << cmp_count << endl;
 	cout << "jumlah data yang berpindah : " << mov_count << endl;
@@ -90,7 +90,7 @@ void Display() {
 
 int main() {
 	Input();
-	Algorithm();
+	Algorithm(0, n - 1);
 	Display();
 
 	return 0;
