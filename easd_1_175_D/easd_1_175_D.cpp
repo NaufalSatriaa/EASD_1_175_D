@@ -46,6 +46,8 @@ void Algorithm(int low, int high) {
 	i = low + 1;
 	NS = high; 
 
+	while (i <= NS) {
 
+		
 	
 }
