@@ -19,4 +19,12 @@ void input() {
 			cout << "\nmaksimum panjang array adalah 20" << endl;
 	}
 
+	cout << "---------------------" << endl;
+	cout << "\nenter array element" << endl;
+	cout << "---------------------" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << "<" << (i + 1) << ">";
+		cin >> nflsat[i];
+	}
 }
