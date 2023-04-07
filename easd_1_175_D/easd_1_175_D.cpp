@@ -8,7 +8,7 @@ int cmp_count = 0;
 int mov_count = 0;
 int n;
 
-void input() {
+void Input() {
 	while (true) {
 		cout << "masukkan panjang element array : ";
 		cin >> n;
@@ -76,7 +76,7 @@ void Algorithm(int low, int high) {
 	
 }
 
-void display() {
+void Display() {
 	cout << "\n====================" << endl;
 	cout << "\narray yang terususun" << endl;
 	cout << "\n====================" << endl;
@@ -86,4 +86,12 @@ void display() {
 	}
 	cout << "\n\njumlah data yang dibandingkan : " << cmp_count << endl;
 	cout << "jumlah data yang berpindah : " << mov_count << endl;
+}
+
+int main() {
+	Input();
+	Algorithm();
+	Display();
+
+	return 0;
 }
