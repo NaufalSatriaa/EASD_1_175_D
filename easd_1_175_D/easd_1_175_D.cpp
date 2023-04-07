@@ -48,6 +48,7 @@ void Algorithm(int low, int high) {
 
 	while (i <= NS) {
 
-		
+		while ((nflsat[i] <= pivot) && (i <= high)) {
+		}
 	
 }
